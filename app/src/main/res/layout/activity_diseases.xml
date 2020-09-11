@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b2b2b">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/cardiologist" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:clickable="true"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/pulmonologist" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="210dp"
+        android:clickable="true"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/ophthalmologist" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="210dp"
+        android:clickable="true"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/diabetologist" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp"
+        android:clickable="true"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/gynaecologist" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp"
+        android:clickable="true"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/pediatrician" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="490dp"
+        android:clickable="true"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/dentist" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health Concern"
+        android:textColor="#ff5f6a"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"/>
+
+</RelativeLayout>

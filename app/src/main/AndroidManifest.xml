@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.care">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyAppointments"></activity>
+        <activity android:name=".ChangePass" />
+        <activity android:name=".Myprofile" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Patient" />
+        <activity android:name=".Diseases" />
+        <activity android:name=".List" />
+        <activity android:name=".City" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Booked" />
+        <activity android:name=".Confirmation" />
+        <activity android:name=".Sign" />
+        <activity android:name=".Login" />
+        <activity android:name=".Start" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
